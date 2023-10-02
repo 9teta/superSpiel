@@ -121,8 +121,8 @@ fun BottomBar(
                 modifier = Modifier
                     .size(60.dp),
                 onClick = {  },
-                containerColor = MaterialTheme.colorScheme.primary,
-                contentColor = MaterialTheme.colorScheme.onPrimary
+                containerColor = MaterialTheme.colorScheme.tertiaryContainer,
+                contentColor = MaterialTheme.colorScheme.onTertiaryContainer
             ) {
                 Icon(Icons.Filled.Refresh, "Reload")
             }
